@@ -2,7 +2,10 @@
 
 Unishelf is a web-based university eLibrary platform that allows students to easily access, browse, and read course books specific to their departments. It streamlines the process of finding academic materials by providing a centralized digital library.
 
-Features
+
+
+# Features:
+
 User registration and login using university email
 
 Browse and search course books by department
