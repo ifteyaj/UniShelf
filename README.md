@@ -1,11 +1,16 @@
 # Unishelf
 
-A React + Vite project.
+Unishelf is a web-based university eLibrary platform that allows students to easily access, browse, and read course books specific to their departments. It streamlines the process of finding academic materials by providing a centralized digital library.
 
-## Run Locally
+Features
+User registration and login using university email
 
-**Prerequisites:** Node.js
+Browse and search course books by department
 
-1. Install dependencies:
-   ```bash
-   npm install
+View book details and read books online
+
+Responsive design for desktop and mobile
+
+Secure authentication and role management (students, admins)
+
+Future plans: personalized recommendations, offline reading
