@@ -1,0 +1,54 @@
+# Usage Scenarios for Unishelf
+
+This document describes common user interactions and workflows within the Unishelf eLibrary platform.
+
+---
+
+## 1. Student Browsing and Reading a Book
+
+**User:** Student  
+**Goal:** Browse department books and read a selected eBook
+
+**Steps:**  
+1. Student opens Unishelf in their browser.  
+2. They log in with their university email and password.  
+3. Student selects their department (e.g., Business Administration) from a dropdown menu.  
+4. The system loads and displays a list of eBooks related to Business Administration.  
+5. Student scrolls through the list and clicks on a book titled “Principles of Marketing.”  
+6. The book opens in the integrated eReader.  
+7. Student reads the first chapter and bookmarks an important page.  
+8. Student closes the book and logs out.
+
+---
+
+## 2. Student Searching for a Specific Book
+
+**User:** Student  
+**Goal:** Find a specific textbook quickly using search
+
+**Steps:**  
+1. Student logs into Unishelf.  
+2. Student selects their department (e.g., Computer Science).  
+3. Student uses the search bar and types “Operating Systems.”  
+4. The system filters and shows books matching the keyword.  
+5. Student selects a book called “Modern Operating Systems.”  
+6. The eReader opens the book for reading.  
+7. Student downloads a PDF version for offline use.  
+8. Student logs out.
+
+---
+
+## 3. Admin Adding New Books
+
+**User:** Admin  
+**Goal:** Add new eBooks to the platform
+
+**Steps:**  
+1. Admin logs into the Unishelf admin panel.  
+2. Navigates to the “Manage Books” section.  
+3. Clicks “Add New Book.”  
+4. Uploads the eBook file and enters metadata (title, author, department, course, etc.).  
+5. Submits the new book to the system.  
+6. The system saves the book and makes it available to students.  
+7. Admin logs out.
+
