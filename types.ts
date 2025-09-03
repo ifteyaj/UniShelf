@@ -1,5 +1,5 @@
 export interface Book {
-  id: string;
+  id: number;
   title: string;
   author: string;
   subject: string;
@@ -14,7 +14,7 @@ export interface Book {
 
 export interface Annotation {
   id: string;
-  book_id: string;
+  book_id: number;
   user_id: string;
   text: string;
   highlighted_content: string;
@@ -22,14 +22,15 @@ export interface Annotation {
 }
 
 export interface ReadingListItem {
-  id: string;
-  book_id: string;
+  id: number;
+  book_id: number;
   course_code: string;
   department: string;
   added_by: string;
   date_added: string;
 }
 
+// Represents data from the public 'profiles' table, linked to auth.users
 export interface User {
   id:string;
   name: string;
@@ -39,6 +40,5 @@ export interface User {
   department: string;
   semester: string;
   avatar_url: string;
-  savedBooks: string[];
-  annotations: Annotation[];
+  annotations: Annotation[]; // Kept for consistency, though a real implementation would fetch these separately.
 }

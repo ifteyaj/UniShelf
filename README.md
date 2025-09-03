@@ -1,19 +1,20 @@
-# Unishelf
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Unishelf is a web-based university eLibrary platform that allows students to easily access, browse, and read course books specific to their departments. It streamlines the process of finding academic materials by providing a centralized digital library.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1-pNk7RnCMZStrfwgbDjJuhFyl8NfDQYB
+
+## Run Locally
+
+**Prerequisites:**  Node.js
 
 
-
-# Features:
-
-User registration and login using university email
-
-Browse and search course books by department
-
-View book details and read books online
-
-Responsive design for desktop and mobile
-
-Secure authentication and role management (students, admins)
-
-Future plans: personalized recommendations, offline reading
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
